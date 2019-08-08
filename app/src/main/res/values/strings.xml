@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">ALCChallenge2.0</string>
-    <string name="title_hint">Deal Title</string>
-    <string name="price_hint">Price (numbers only)</string>
-    <string name="description_hint">Description</string>
-    <string name="save_menu">save</string>
-    <string name="delete_deal">Delete Deal</string>
+    <string name="app_name">TravelMantic</string>
+    <string name="destination_name">Destination Name</string>
+    <string name="price_string">Price</string>
+    <string name="description_label">Description</string>
+    <string name="save">SAVE</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="image_for_place">Image for place</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="save_item">Save Item</string>
 </resources>

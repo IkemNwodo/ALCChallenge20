@@ -1,6 +1,8 @@
 package nwodo.ikem.com.alcchallenge20;
 
-public class TravelModel {
+import java.io.Serializable;
+
+public class TravelDeals implements Serializable {
     private String id;
     private String title;
     private String description;
@@ -8,10 +10,10 @@ public class TravelModel {
     private String imageUrl;
     private String imageName;
 
-    public TravelModel() {
+    public TravelDeals() {
     }
 
-    public TravelModel(String title, String description, String price, String imageUrl, String imageName) {
+    public TravelDeals(String title, String description, String price, String imageUrl, String imageName) {
         this.setId(id);
         this.setTitle(title);
         this.setDescription(description);
